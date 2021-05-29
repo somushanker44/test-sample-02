@@ -68,3 +68,48 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+git init
+git add README.md
+git commit -m “first commit”
+git remote add origin git-clone-link
+git push -u origin master
+git add .
+git status
+git commit -m “push all files on git”
+git push origin master
+
+
+git –version
+@ Displays the installed git version.
+git init 
+@ To create a new repo
+git add .
+@ Add all files to git
+git commit -m “message”
+@ Add a message
+git reset –hard
+@ Reset your changes, and goes back to the previous commit, if you want to.
+git log
+@ View all commits
+Shift + : and type q
+@ comes out of a file where you cannot write anything
+git checkout commit#
+@ Go to certain commit does not reset.
+git checkout –
+@ come back to the current commit
+git reset –hard commit#
+@ Reset to that commit.
+git checkout HEAD – filename
+@ Remove staged changes.
+git remove origin
+@ To remove an origin
+git stash
+@ Holds the changes if you want to checkout to other branch without committing
+git stash apply
+@ When you come back to your changes after checkout to other branches 
+
+
+Adding a Sass Stylesheet
+To use Sass, first install node-sass: $ npm install node-sass --save
